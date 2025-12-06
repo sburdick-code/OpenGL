@@ -14,3 +14,5 @@ target_include_directories(hello_window PRIVATE dependencies)
 # Tell CMake where the GLFW .lib file is
 target_link_directories(hello_window PRIVATE dependencies/glfw/lib-vc2022)
 target_link_libraries(hello_window glfw3)
+
+set_property(TARGET hello_window PROPERTY VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}")
