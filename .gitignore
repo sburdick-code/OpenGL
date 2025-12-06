@@ -1,0 +1,52 @@
+# Build directories
+/build/
+/build-*/
+/cmake-build-*/
+
+# CMake Generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+
+# Compiled binaries
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.lib
+*.a
+*.out
+
+# IDE files
+.vscode/
+.vs/
+*.code-workspace
+*.sln
+*.vcxproj*
+*.pdb
+*.user
+*.opendb
+*.tlog
+
+# C++
+*.gcda
+*.gcno
+*.gcov
+
+# General Files
+*.log
+*.cache
+*.DS_Store
+*.swp
+*.tmp
